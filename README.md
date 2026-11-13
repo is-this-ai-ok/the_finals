@@ -4,11 +4,11 @@
 
 A browser tool for marking up THE FINALS arenas: spawns, cashout stations, cash boxes, high ground, 1:1 duel spots, questions, zones, and distances. You can also review your own VODs: play the video, record YouTube-style timestamps, link each one to an icon on the map, and attach screenshots.
 
-You can view it online (read-only) at https://kangeugine.github.io/the_finals/.
+You can view it online (read-only) at https://is-this-ai-ok.github.io/the_finals/.
 
 To add your own notes you run the tool on your computer. The more people add, the better the maps get, so please send your changes back as a pull request (see [Contributing](#contributing)).
 
-A YouTube video on how to use the tool will be made on request. [Open an issue](https://github.com/kangeugine/the_finals/issues/new?title=Video%20walkthrough%20request) to ask for one.
+A YouTube video on how to use the tool will be made on request. [Open an issue](https://github.com/is-this-ai-ok/the_finals/issues/new?title=Video%20walkthrough%20request) to ask for one.
 
 ## Contents
 
@@ -27,7 +27,7 @@ A YouTube video on how to use the tool will be made on request. [Open an issue](
 - Git, to download the project and send your changes back.
 - A web browser (Chrome, Edge, Safari or Firefox).
 
-Without Node.js you can still browse the [online version](https://kangeugine.github.io/the_finals/), but adding notes needs it. It's a free installer that takes a couple of minutes, and the steps below cover it.
+Without Node.js you can still browse the [online version](https://is-this-ai-ok.github.io/the_finals/), but adding notes needs it. It's a free installer that takes a couple of minutes, and the steps below cover it.
 
 ## Mac
 
@@ -53,7 +53,7 @@ git --version
 If macOS asks to install the **command line developer tools**, click **Install**, wait for it to finish, then run `git --version` again.
 
 ### 4. Get the code
-First **fork** the repo so you can send changes back: open https://github.com/kangeugine/the_finals, click **Fork** (top right), then **Create fork**. Then download *your* fork, replacing `YOUR-USERNAME` with your GitHub username:
+First **fork** the repo so you can send changes back: open https://github.com/is-this-ai-ok/the_finals, click **Fork** (top right), then **Create fork**. Then download *your* fork, replacing `YOUR-USERNAME` with your GitHub username:
 ```sh
 cd ~/Documents
 git clone https://github.com/YOUR-USERNAME/the_finals.git
@@ -102,7 +102,7 @@ git --version
 If it says `git is not recognized…`, download Git from https://git-scm.com/download/win and install it with the default options (or run `winget install Git.Git`). Then **close and reopen PowerShell**.
 
 ### 4. Get the code
-First **fork** the repo so you can send changes back: open https://github.com/kangeugine/the_finals, click **Fork** (top right), then **Create fork**. Then download *your* fork, replacing `YOUR-USERNAME` with your GitHub username:
+First **fork** the repo so you can send changes back: open https://github.com/is-this-ai-ok/the_finals, click **Fork** (top right), then **Create fork**. Then download *your* fork, replacing `YOUR-USERNAME` with your GitHub username:
 ```powershell
 cd $HOME\Documents
 git clone https://github.com/YOUR-USERNAME/the_finals.git
@@ -142,7 +142,7 @@ node app\server.js
 
 Everything saves automatically to `app/data/map-data.json` and `app/data/photos/`.
 
-If you'd like a video walkthrough of any of this, [open an issue](https://github.com/kangeugine/the_finals/issues/new?title=Video%20walkthrough%20request) and one will be made.
+If you'd like a video walkthrough of any of this, [open an issue](https://github.com/is-this-ai-ok/the_finals/issues/new?title=Video%20walkthrough%20request) and one will be made.
 
 ## Contributing
 
@@ -155,7 +155,7 @@ Tell Git who you are, and connect your fork to the main repo:
 ```sh
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
-git remote add upstream https://github.com/kangeugine/the_finals.git
+git remote add upstream https://github.com/is-this-ai-ok/the_finals.git
 ```
 
 ### Each time you contribute
