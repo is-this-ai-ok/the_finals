@@ -1,0 +1,9 @@
+{
+  "map": "Monaco.webp",
+  "_note": "Screenshot 2026-11-14 3.30 PM (542x621, no grid labels), calibrated by matching it against the Ape Squad image (NCC 0.92). Fills Shopping District's top-right corner up to the road (taking the Forest wedge), and gives the Construction strip between the Cathedral and Villas to Villas.",
+  "screen": { "k": 0.27, "sx0": -472.6, "sy0": 775.4 },
+  "repaint": [
+    { "zone": "Shopping District", "from": ["Forest"], "polygon": [[140, 53], [162, 57], [185, 61], [205, 65.5], [223, 69], [230, 71], [230, 100], [140, 100]] },
+    { "zone": "Villas", "from": ["Construction"], "polygon": [[315, 432], [370, 432], [370, 565], [315, 565]] }
+  ]
+}

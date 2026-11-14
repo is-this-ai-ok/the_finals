@@ -9,8 +9,11 @@
 //               "groups": { name: [zones] }  (optional: zones that touch share one fit),
 //               "shiftOnly": [zones or groups] (optional: never rescale these),
 //               "tps": [zones or groups] (optional: smooth warp exact at every point —
-//                       for curved/irregular areas a straight per-axis fit can't follow) }
-// Each run appends a step to align.zoneFix[zone] (applied in order by build.js).
+//                       for curved/irregular areas a straight per-axis fit can't follow),
+//               "repaint": [{ "zone", "polygon": [[x, y], ...], "from": [zones] }] (optional:
+//                       hand-drawn area given to `zone`, only taking it from `from` if set) }
+// Each run appends a step to align.zoneFix[zone] (applied in order by build.js),
+// and any repaints to align.repaint (in Ape px, applied before tracing).
 const fs = require('fs');
 const { probe } = require('./img');
 const CONFIG_FILE = __dirname + '/zones.config.json';
@@ -46,7 +49,7 @@ const groupOf = {};
 for (const [g, zs] of Object.entries(spec.groups ?? {})) for (const z of zs) groupOf[z] = g;
 const members = (g) => spec.groups?.[g] ?? [g];
 const byGroup = {};
-for (const p of spec.pairs) (byGroup[groupOf[p.zone] ?? p.zone] ??= []).push({ from: toImage(p.from), to: toImage(p.to) });
+for (const p of spec.pairs ?? []) (byGroup[groupOf[p.zone] ?? p.zone] ??= []).push({ from: toImage(p.from), to: toImage(p.to) });
 const c = cfg[spec.map];
 c.align.zoneFix ??= {};
 for (const [g, pts] of Object.entries(byGroup)) {
@@ -69,4 +72,9 @@ for (const [g, pts] of Object.entries(byGroup)) {
   if (useTps) { console.log(`${g.padEnd(22)} ${pts.length} pt  smooth warp (exact at every point)`); continue; }
   console.log(`${g.padEnd(22)} ${pts.length} pt  u ×${u[0].toFixed(3)} ${u[1] >= 0 ? '+' : ''}${u[1].toFixed(0)}  v ×${v[0].toFixed(3)} ${v[1] >= 0 ? '+' : ''}${v[1].toFixed(0)}  max error ${Math.max(...err).toFixed(1)} screenshot px`);
 }
-require('child_process').execFileSync('node', [__dirname + '/config-write.js', `Object.assign(c[${JSON.stringify(spec.map)}].align, ${JSON.stringify({ zoneFix: c.align.zoneFix })})`]);
+if (spec.repaint) {
+  c.align.repaint = [...(c.align.repaint ?? []), ...spec.repaint.map((r) => ({ ...r, polygon: r.polygon.map((q) => toImage(q).map(Math.round)) }))];
+  for (const r of spec.repaint) console.log(`repaint ${r.zone.padEnd(14)} ${r.polygon.length} pt${r.from ? '  from ' + r.from.join(', ') : ''}`);
+}
+const save = { ...(Object.keys(c.align.zoneFix).length && { zoneFix: c.align.zoneFix }), ...(c.align.repaint && { repaint: c.align.repaint }) };
+require('child_process').execFileSync('node', [__dirname + '/config-write.js', `Object.assign(c[${JSON.stringify(spec.map)}].align, ${JSON.stringify(save)})`]);

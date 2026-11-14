@@ -82,6 +82,26 @@ for (const [id, cfg] of Object.entries(CONFIG)) {
   const wu = pwl(cfg.align?.warp?.u), wv = pwl(cfg.align?.warp?.v);
   const T = ([u, v]) => [Math.round(wu(a * u + b * v + tx)), Math.round(wv(c * u + d * v + ty))];
 
+  // Optional hand repaints (fix-zones.js), applied in order before tracing:
+  // { zone, polygon: [[x, y], ...] (Ape px), from: [zones] (optional) } gives
+  // every official px that T maps inside the polygon — only those owned by
+  // `from`, if set — to `zone`, so its neighbours' edges follow along.
+  for (const r of cfg.align?.repaint ?? []) {
+    const idx = (n) => (names.includes(n) ? names.indexOf(n) : (() => { throw new Error('no zone ' + n); })());
+    const to = idx(r.zone), from = r.from && new Set(r.from.map(idx));
+    const P = r.polygon, xs = P.map((p) => p[0]), ys = P.map((p) => p[1]);
+    const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+    for (let v = 0, i = 0; v < im.h; v++) for (let u = 0; u < im.w; u++, i++) {
+      if (from && !from.has(owner[i])) continue;
+      const [x, y] = T([u + 0.5, v + 0.5]);
+      if (x < x0 || x > x1 || y < y0 || y > y1) continue;
+      let inside = false;
+      for (let a = 0, b = P.length - 1; a < P.length; b = a++)
+        if (P[a][1] > y !== P[b][1] > y && x < ((P[b][0] - P[a][0]) * (y - P[a][1])) / (P[b][1] - P[a][1]) + P[a][0]) inside = !inside;
+      if (inside) owner[i] = to;
+    }
+  }
+
   const k = im.w / 2048;
   // Optional per-zone hand fixes (fix-zones.js), applied in order, in Ape px:
   // { u: [s, t], v: [s, t] } per-axis scale + shift, or { tps: { src, dst } } smooth warp.
