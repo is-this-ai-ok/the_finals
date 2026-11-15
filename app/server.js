@@ -40,7 +40,9 @@ const POI_TYPES = [
 const SECONDARY_TYPES = [
   { id: 'high_ground', label: 'High Ground', appIcon: 'high_ground.svg' },
   { id: 'duel', label: '1:1 Duel', appIcon: 'duel.svg' },
+  { id: 'window_jump', label: 'Window Jump', appIcon: 'window_jump.svg' },
   { id: 'question', label: 'Question', appIcon: 'question.svg', textField: 'Question' },
+  { id: 'communication', label: 'Communication', appIcon: 'communication.svg', textField: 'Callout' },
 ];
 
 const typesForClient = (types) =>

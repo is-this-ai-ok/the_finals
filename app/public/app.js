@@ -1457,6 +1457,7 @@ function placePoi(pos) {
   if (!ip) return;
   const poi = { id: newId(), type: state.tool, imagePos: ip };
   mapData().pois.push(poi);
+  syncDerived(); // gives the new POI its gridPos, which the POI list needs
   selectPoi(poi);
   vodLinkPlaced(poi, null);
   poisChanged();

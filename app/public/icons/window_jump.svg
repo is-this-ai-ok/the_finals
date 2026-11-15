@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Window jump: an arrow arcing through a window frame -->
+  <g stroke="#4cc9f0" stroke-width="4" stroke-linejoin="round" fill="none">
+    <rect x="18" y="14" width="28" height="40" rx="2"/>
+    <path d="M32 14v40M18 34h28" stroke-width="2.5"/>
+  </g>
+  <path d="M4 52C16 30 34 26 50 28" stroke="#0b2e3a" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M4 52C16 30 34 26 50 28" stroke="#4cc9f0" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M61 29L48 36l1-16z" fill="#4cc9f0" stroke="#0b2e3a" stroke-width="2" stroke-linejoin="round"/>
+</svg>

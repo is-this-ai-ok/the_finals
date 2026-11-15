@@ -2638,7 +2638,711 @@
       "rotation": -90,
       "northLocked": true,
       "gridSpacing": "auto",
-      "pois": [],
+      "pois": [
+        {
+          "id": "mwh1z5zng43nf",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1449.2,
+            "y": 871.5
+          },
+          "children": [
+            {
+              "id": "mwh22tn2hog5q",
+              "type": "duel",
+              "imagePos": {
+                "x": 1383.4,
+                "y": 1307
+              },
+              "gridPos": {
+                "x": 1307,
+                "y": 1383.4
+              }
+            },
+            {
+              "id": "mwh2fwf4spimm",
+              "type": "question",
+              "imagePos": {
+                "x": 1494.5,
+                "y": 809.8
+              },
+              "gridPos": {
+                "x": 809.8,
+                "y": 1494.5
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 871.5,
+            "y": 1449.2
+          }
+        },
+        {
+          "id": "mwh275r3jc4cs",
+          "type": "spawn",
+          "imagePos": {
+            "x": 1609.1,
+            "y": 2879
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2879,
+            "y": 1609.1
+          }
+        },
+        {
+          "id": "mwh28wcfunwz9",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 2062.9,
+            "y": 2258.8
+          },
+          "children": [
+            {
+              "id": "mwh2awrs6wcmr",
+              "type": "duel",
+              "imagePos": {
+                "x": 2078.7,
+                "y": 2176.5
+              },
+              "gridPos": {
+                "x": 2176.5,
+                "y": 2078.7
+              }
+            },
+            {
+              "id": "mwh2d92s1pq4y",
+              "type": "duel",
+              "imagePos": {
+                "x": 1899.4,
+                "y": 2058.1
+              },
+              "gridPos": {
+                "x": 2058.1,
+                "y": 1899.4
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2258.8,
+            "y": 2062.9
+          }
+        },
+        {
+          "id": "mwh2kb7sxmq7k",
+          "type": "spawn",
+          "imagePos": {
+            "x": 2323,
+            "y": 1029.5
+          },
+          "children": [],
+          "gridPos": {
+            "x": 1029.5,
+            "y": 2323
+          }
+        },
+        {
+          "id": "mwh2ohlk9pwwb",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 2350.5,
+            "y": 3082.9
+          },
+          "children": [
+            {
+              "id": "mwh2z82qjiig9",
+              "type": "duel",
+              "imagePos": {
+                "x": 2286.2,
+                "y": 3011.2
+              },
+              "gridPos": {
+                "x": 3011.2,
+                "y": 2286.2
+              }
+            },
+            {
+              "id": "mwh3hweq2rxo9",
+              "type": "duel",
+              "imagePos": {
+                "x": 2243.8,
+                "y": 3127.7
+              },
+              "gridPos": {
+                "x": 3127.7,
+                "y": 2243.8
+              }
+            },
+            {
+              "id": "mwh3kytp1k4un",
+              "type": "question",
+              "imagePos": {
+                "x": 2934.3,
+                "y": 2837.4
+              },
+              "gridPos": {
+                "x": 2837.4,
+                "y": 2934.3
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 3082.9,
+            "y": 2350.5
+          }
+        },
+        {
+          "id": "mwh30vnxce1ni",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1364.1,
+            "y": 2945.3
+          },
+          "children": [
+            {
+              "id": "mwh31rg40zcvu",
+              "type": "question",
+              "imagePos": {
+                "x": 1406.6,
+                "y": 2867.1
+              },
+              "gridPos": {
+                "x": 2867.1,
+                "y": 1406.6
+              }
+            },
+            {
+              "id": "mwh33p2bqyaup",
+              "type": "question",
+              "imagePos": {
+                "x": 1419.7,
+                "y": 3016.3
+              },
+              "gridPos": {
+                "x": 3016.3,
+                "y": 1419.7
+              }
+            },
+            {
+              "id": "mwh352casppxa",
+              "type": "question",
+              "imagePos": {
+                "x": 1458.4,
+                "y": 2949.1
+              },
+              "gridPos": {
+                "x": 2949.1,
+                "y": 1458.4
+              }
+            },
+            {
+              "id": "mwh376fi5izix",
+              "type": "duel",
+              "imagePos": {
+                "x": 1436.1,
+                "y": 2735.2
+              },
+              "gridPos": {
+                "x": 2735.2,
+                "y": 1436.1
+              }
+            },
+            {
+              "id": "mwh38bkqims5e",
+              "type": "duel",
+              "imagePos": {
+                "x": 1485.1,
+                "y": 2777.9
+              },
+              "gridPos": {
+                "x": 2777.9,
+                "y": 1485.1
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2945.3,
+            "y": 1364.1
+          }
+        },
+        {
+          "id": "mwh3mirftzg1x",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3828,
+            "y": 3051.1
+          },
+          "children": [
+            {
+              "id": "mwh3oef3vmfdl",
+              "type": "question",
+              "imagePos": {
+                "x": 3868.2,
+                "y": 2952.5
+              },
+              "gridPos": {
+                "x": 2952.5,
+                "y": 3868.2
+              }
+            },
+            {
+              "id": "mwh3qkndpvrzk",
+              "type": "question",
+              "imagePos": {
+                "x": 3844.2,
+                "y": 2861.2
+              },
+              "gridPos": {
+                "x": 2861.2,
+                "y": 3844.2
+              }
+            },
+            {
+              "id": "mwh3sv89eswll",
+              "type": "high_ground",
+              "imagePos": {
+                "x": 4036.6,
+                "y": 3158.4
+              },
+              "gridPos": {
+                "x": 3158.4,
+                "y": 4036.6
+              }
+            },
+            {
+              "id": "mwh3v28olda95",
+              "type": "question",
+              "imagePos": {
+                "x": 3913.7,
+                "y": 3086.5
+              },
+              "gridPos": {
+                "x": 3086.5,
+                "y": 3913.7
+              }
+            },
+            {
+              "id": "mwh8egmlytgwv",
+              "type": "question",
+              "imagePos": {
+                "x": 3089.9,
+                "y": 2864.1
+              },
+              "gridPos": {
+                "x": 2864.1,
+                "y": 3089.9
+              }
+            },
+            {
+              "id": "mwh8gpzrv18ek",
+              "type": "duel",
+              "imagePos": {
+                "x": 3879.5,
+                "y": 3133.3
+              },
+              "gridPos": {
+                "x": 3133.3,
+                "y": 3879.5
+              }
+            },
+            {
+              "id": "mwh8jgme567p4",
+              "type": "duel",
+              "imagePos": {
+                "x": 3671.8,
+                "y": 3019
+              },
+              "gridPos": {
+                "x": 3019,
+                "y": 3671.8
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 3051.1,
+            "y": 3828
+          }
+        },
+        {
+          "id": "mwh3zazm1ayyi",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3643.5,
+            "y": 2974
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2974,
+            "y": 3643.5
+          }
+        },
+        {
+          "id": "mwh41yof173yh",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 2366.4,
+            "y": 2667.8
+          },
+          "children": [
+            {
+              "id": "mwh43n30zikic",
+              "type": "question",
+              "imagePos": {
+                "x": 2395.4,
+                "y": 2630.1
+              },
+              "gridPos": {
+                "x": 2630.1,
+                "y": 2395.4
+              }
+            },
+            {
+              "id": "mwh453tqqxymp",
+              "type": "question",
+              "imagePos": {
+                "x": 2315.5,
+                "y": 2711.1
+              },
+              "gridPos": {
+                "x": 2711.1,
+                "y": 2315.5
+              }
+            },
+            {
+              "id": "mwh69xzlbnzk8",
+              "type": "window_jump",
+              "imagePos": {
+                "x": 2150.4,
+                "y": 2646.5
+              },
+              "gridPos": {
+                "x": 2646.5,
+                "y": 2150.4
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2667.8,
+            "y": 2366.4
+          }
+        },
+        {
+          "id": "mwh6c6val0v16",
+          "type": "spawn",
+          "imagePos": {
+            "x": 2562.3,
+            "y": 71
+          },
+          "children": [],
+          "gridPos": {
+            "x": 71,
+            "y": 2562.3
+          }
+        },
+        {
+          "id": "mwh6hn7mqncg3",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3963.5,
+            "y": 731.3
+          },
+          "children": [
+            {
+              "id": "mwh6ipxs8dg3o",
+              "type": "question",
+              "imagePos": {
+                "x": 3904.4,
+                "y": 809.7
+              },
+              "gridPos": {
+                "x": 809.7,
+                "y": 3904.4
+              }
+            },
+            {
+              "id": "mwh6kqr3sudx1",
+              "type": "duel",
+              "imagePos": {
+                "x": 3812.3,
+                "y": 776.3
+              },
+              "gridPos": {
+                "x": 776.3,
+                "y": 3812.3
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 731.3,
+            "y": 3963.5
+          }
+        },
+        {
+          "id": "mwh6v5qnxxou6",
+          "type": "spawn",
+          "imagePos": {
+            "x": 2867.6,
+            "y": 3432.7
+          },
+          "children": [],
+          "gridPos": {
+            "x": 3432.7,
+            "y": 2867.6
+          }
+        },
+        {
+          "id": "mwh6zmnqqz6x3",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 4321.7,
+            "y": 2746.1
+          },
+          "children": [
+            {
+              "id": "mwh70pww5xqyk",
+              "type": "question",
+              "imagePos": {
+                "x": 3765.7,
+                "y": 3095.1
+              },
+              "gridPos": {
+                "x": 3095.1,
+                "y": 3765.7
+              }
+            },
+            {
+              "id": "mwh7236vjs5m7",
+              "type": "question",
+              "imagePos": {
+                "x": 4284.3,
+                "y": 2824.4
+              },
+              "gridPos": {
+                "x": 2824.4,
+                "y": 4284.3
+              }
+            },
+            {
+              "id": "mwh73ppr46l0x",
+              "type": "high_ground",
+              "imagePos": {
+                "x": 4005.8,
+                "y": 3140.9
+              },
+              "gridPos": {
+                "x": 3140.9,
+                "y": 4005.8
+              }
+            },
+            {
+              "id": "mwh74tkk8obzb",
+              "type": "question",
+              "imagePos": {
+                "x": 4286.2,
+                "y": 2896.9
+              },
+              "gridPos": {
+                "x": 2896.9,
+                "y": 4286.2
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2746.1,
+            "y": 4321.7
+          }
+        },
+        {
+          "id": "mwh77syvth02u",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 2946.6,
+            "y": 1949.4
+          },
+          "children": [
+            {
+              "id": "mwh78jlmyvvcr",
+              "type": "duel",
+              "imagePos": {
+                "x": 3534.3,
+                "y": 2268.4
+              },
+              "gridPos": {
+                "x": 2268.4,
+                "y": 3534.3
+              }
+            },
+            {
+              "id": "mwh7bg6uu0cdm",
+              "type": "question",
+              "imagePos": {
+                "x": 3068.6,
+                "y": 2093.1
+              },
+              "gridPos": {
+                "x": 2093.1,
+                "y": 3068.6
+              }
+            },
+            {
+              "id": "mwh7crd01r1pe",
+              "type": "window_jump",
+              "imagePos": {
+                "x": 3143.2,
+                "y": 2043.4
+              },
+              "gridPos": {
+                "x": 2043.4,
+                "y": 3143.2
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1949.4,
+            "y": 2946.6
+          }
+        },
+        {
+          "id": "mwh7eu767mmer",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 4279.1,
+            "y": 2092.7
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2092.7,
+            "y": 4279.1
+          }
+        },
+        {
+          "id": "mwh7niaaa570l",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 2558.3,
+            "y": 1895.3
+          },
+          "children": [
+            {
+              "id": "mwh7pj631ts0c",
+              "type": "duel",
+              "imagePos": {
+                "x": 2548.6,
+                "y": 1651.8
+              },
+              "gridPos": {
+                "x": 1651.8,
+                "y": 2548.6
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1895.3,
+            "y": 2558.3
+          }
+        },
+        {
+          "id": "mwh7rcf09p12t",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3973,
+            "y": 1266.3
+          },
+          "children": [
+            {
+              "id": "mwh7sx16s0v3e",
+              "type": "question",
+              "imagePos": {
+                "x": 3981,
+                "y": 1293.2
+              },
+              "gridPos": {
+                "x": 1293.2,
+                "y": 3981
+              }
+            },
+            {
+              "id": "mwh7uxsc9exhb",
+              "type": "duel",
+              "imagePos": {
+                "x": 4004.1,
+                "y": 1125.8
+              },
+              "gridPos": {
+                "x": 1125.8,
+                "y": 4004.1
+              }
+            },
+            {
+              "id": "mwh7ys2inxuz7",
+              "type": "communication",
+              "imagePos": {
+                "x": 3923.3,
+                "y": 1153.9
+              },
+              "gridPos": {
+                "x": 1153.9,
+                "y": 3923.3
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1266.3,
+            "y": 3973
+          }
+        },
+        {
+          "id": "mwh83q29x91b4",
+          "type": "spawn",
+          "imagePos": {
+            "x": 2288.7,
+            "y": 2010.1
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2010.1,
+            "y": 2288.7
+          }
+        },
+        {
+          "id": "mwh86a28a553x",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3863.5,
+            "y": 2588.5
+          },
+          "children": [
+            {
+              "id": "mwh879bz5hocb",
+              "type": "question",
+              "imagePos": {
+                "x": 3831,
+                "y": 2725.4
+              },
+              "gridPos": {
+                "x": 2725.4,
+                "y": 3831
+              }
+            },
+            {
+              "id": "mwh89filfqupk",
+              "type": "question",
+              "imagePos": {
+                "x": 3722,
+                "y": 2833.2
+              },
+              "gridPos": {
+                "x": 2833.2,
+                "y": 3722
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2588.5,
+            "y": 3863.5
+          }
+        }
+      ],
       "imageSize": {
         "width": 5466,
         "height": 3504
@@ -3228,7 +3932,23 @@
           ]
         }
       ],
-      "distanceRefs": []
+      "distanceRefs": [
+        {
+          "a": "mwh6v5qnxxou6",
+          "b": "mwh6zmnqqz6x3",
+          "meters": 92
+        },
+        {
+          "a": "mwh77syvth02u",
+          "b": "mwh7eu767mmer",
+          "meters": 86
+        },
+        {
+          "a": "mwh3zazm1ayyi",
+          "b": "mwh7niaaa570l",
+          "meters": 104
+        }
+      ]
     },
     "Nozomi-Citadel.webp": {
       "rotation": 90,
@@ -11668,7 +12388,7 @@
   "settings": {
     "iconSize": 23,
     "hiddenTypes": [],
-    "showZones": true
+    "showZones": false
   },
   "vods": {
     "2026-11-09_1_Skyway-Stadium.mp4": {
@@ -12022,6 +12742,731 @@
       ],
       "duration": 1949.2,
       "youtube": "https://www.youtube.com/watch?v=VAi8MDuq5Wg&t=29s"
+    },
+    "2026-11-13_1_Las-Vegas-Stadium.mp4": {
+      "map": "Las Vegas.webp",
+      "timestamps": [
+        {
+          "id": "mwh279015yhsy",
+          "t": 13.9,
+          "text": "Round 1 Spawn",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh275r3jc4cs"
+          },
+          "photos": [
+            "mwh3ag5qzsq72.jpg"
+          ]
+        },
+        {
+          "id": "mwh297i3ugh6c",
+          "t": 23.2,
+          "text": "Cash Box Location",
+          "photos": [
+            "mwh27cvgh173h.jpg",
+            "mwh291sooezpo.jpg"
+          ],
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh28wcfunwz9"
+          }
+        },
+        {
+          "id": "mwh2bmbbafbl9",
+          "t": 41.4,
+          "text": "Shoot - Turn - Sprint executed in real fight",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh28wcfunwz9",
+            "child": "mwh2awrs6wcmr"
+          }
+        },
+        {
+          "id": "mwh2ddzoi8jhv",
+          "t": 58.1,
+          "text": "Should I ADS with KS-23 when enemies are this far?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh28wcfunwz9",
+            "child": "mwh2d92s1pq4y"
+          },
+          "photos": [
+            "mwh2dd4gv70vd.jpg"
+          ]
+        },
+        {
+          "id": "mwh2g0gj9gvsw",
+          "t": 131.4,
+          "text": "Where should I place proximity sensor in this situation",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh1z5zng43nf",
+            "child": "mwh2fwf4spimm"
+          }
+        },
+        {
+          "id": "mwh22xexnv8su",
+          "t": 150.9,
+          "text": "Need to kick away melee players",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh1z5zng43nf",
+            "child": "mwh22tn2hog5q"
+          },
+          "photos": [
+            "mwh22x2k468a8.jpg"
+          ]
+        },
+        {
+          "id": "mwh2kfwikfh5k",
+          "t": 169.9,
+          "text": "Coin Spawn",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh2kb7sxmq7k"
+          },
+          "photos": [
+            "mwh3ctwdcv0jc.jpg"
+          ]
+        },
+        {
+          "id": "mwh2okl266eix",
+          "t": 259.9,
+          "text": "Cash Box",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh2ohlk9pwwb"
+          },
+          "photos": [
+            "mwh3clzsvyy7q.jpg"
+          ]
+        },
+        {
+          "id": "mwh2zk59yp8k6",
+          "t": 265.3,
+          "text": "Clean 2 Eliminations",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh2ohlk9pwwb",
+            "child": "mwh2z82qjiig9"
+          }
+        },
+        {
+          "id": "mwh30ycszo0l6",
+          "t": 289.5,
+          "text": "Cashout Station",
+          "photos": [
+            "mwh30xp3vfze7.jpg"
+          ],
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni"
+          }
+        },
+        {
+          "id": "mwh31u9zjc9e2",
+          "t": 295.6,
+          "text": "Whats the ideal mine placement which will give maximum stall value?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni",
+            "child": "mwh31rg40zcvu"
+          },
+          "photos": [
+            "mwh31thkdgd1f.jpg"
+          ]
+        },
+        {
+          "id": "mwh33r7vkxwl2",
+          "t": 300.7,
+          "text": "How much goo is too much goo? I like to block all easy entrance",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni",
+            "child": "mwh33p2bqyaup"
+          },
+          "photos": [
+            "mwh33qsxsjepq.jpg"
+          ]
+        },
+        {
+          "id": "mwh354bzl3qbo",
+          "t": 319.6,
+          "text": "Proximity sensor placement suggestions?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni",
+            "child": "mwh352casppxa"
+          },
+          "photos": [
+            "mwh353w1cegy7.jpg"
+          ]
+        },
+        {
+          "id": "mwh379fkbnqex",
+          "t": 371,
+          "text": "Perfect trap",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni",
+            "child": "mwh376fi5izix"
+          },
+          "photos": [
+            "mwh378y1i21ac.jpg"
+          ]
+        },
+        {
+          "id": "mwh38dnq5b1h8",
+          "t": 377.1,
+          "text": "Could have picked up the bomb and throw it to the enemy",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh30vnxce1ni",
+            "child": "mwh38bkqims5e"
+          },
+          "photos": [
+            "mwh3dxw8ypdzr.jpg"
+          ]
+        },
+        {
+          "id": "mwh3hywr8ckkj",
+          "t": 435,
+          "text": "Shoot - Turn - Sprint executed in real fight",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh2ohlk9pwwb",
+            "child": "mwh3hweq2rxo9"
+          },
+          "photos": [
+            "mwh3hy0ih027u.jpg"
+          ]
+        },
+        {
+          "id": "mwh3l0r2tdvdx",
+          "t": 469.6,
+          "text": "Shoot - Turn - Cover, Should I ADS for enemy this far?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh2ohlk9pwwb",
+            "child": "mwh3kytp1k4un"
+          },
+          "photos": [
+            "mwh3l068rsgwh.jpg"
+          ]
+        },
+        {
+          "id": "mwh3mmzy0y7od",
+          "t": 493.2,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x"
+          },
+          "photos": [
+            "mwh3mmjunk6n2.jpg"
+          ]
+        },
+        {
+          "id": "mwh3oyqrd6n6a",
+          "t": 494.4,
+          "text": "Goo Cocoon",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh3oef3vmfdl"
+          },
+          "photos": [
+            "mwh3p47u6frqz.jpg"
+          ]
+        },
+        {
+          "id": "mwh3qpe0s8oif",
+          "t": 526.7,
+          "text": "Creating random goo poles to use as cover",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh3qkndpvrzk"
+          },
+          "photos": [
+            "mwh3qop3z1li1.jpg"
+          ]
+        },
+        {
+          "id": "mwh3syo1tvkhv",
+          "t": 582.1,
+          "text": "Rope outside garage great way to get vertical space",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh3sv89eswll"
+          },
+          "photos": [
+            "mwh3sy0ikguep.jpg"
+          ]
+        },
+        {
+          "id": "mwh3v5sr754tp",
+          "t": 615.4,
+          "text": "Goo poles to stay safe and give me cover. Probably better to go inside the room on the right",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh3v28olda95"
+          },
+          "photos": [
+            "mwh3v58hsncoh.jpg"
+          ]
+        },
+        {
+          "id": "mwh3w5ht8zz65",
+          "t": 629.9,
+          "text": "What should I be looking for in the team's composition?",
+          "photos": [
+            "mwh3w519lbuji.jpg"
+          ]
+        },
+        {
+          "id": "mwh3x8f9c68nb",
+          "t": 683,
+          "text": "Round 2 Spawn",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3zazm1ayyi"
+          },
+          "photos": [
+            "mwh3x79y0xbiy.jpg"
+          ]
+        },
+        {
+          "id": "mwh4245iouj17",
+          "t": 703.5,
+          "text": "Cash Box",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh41yof173yh"
+          },
+          "photos": [
+            "mwh42fq94xz6l.jpg"
+          ]
+        },
+        {
+          "id": "mwh43qra51y8p",
+          "t": 711.8,
+          "text": "Would closing the door help in this situation?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh41yof173yh",
+            "child": "mwh43n30zikic"
+          },
+          "photos": [
+            "mwh43pvj6qjme.jpg"
+          ]
+        },
+        {
+          "id": "mwh45715cci8r",
+          "t": 715.9,
+          "text": "Froze after 2 teammates went down. What should have I done?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh41yof173yh",
+            "child": "mwh453tqqxymp"
+          },
+          "photos": [
+            "mwh456201rldr.jpg"
+          ]
+        },
+        {
+          "id": "mwh6agcla1kwn",
+          "t": 716.7,
+          "text": "Should have take the statue and do a window jump behind me",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh41yof173yh",
+            "child": "mwh69xzlbnzk8"
+          },
+          "photos": [
+            "mwh6a4nk5x10q.jpg"
+          ]
+        },
+        {
+          "id": "mwh6c9nwqz58i",
+          "t": 747.7,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6c6val0v16"
+          },
+          "photos": [
+            "mwh6c8x9vtr6x.jpg"
+          ]
+        },
+        {
+          "id": "mwh6hq0wyqjud",
+          "t": 765.6,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6hn7mqncg3"
+          },
+          "photos": [
+            "mwh6houtmdm1h.jpg"
+          ]
+        },
+        {
+          "id": "mwh6k2jua0mkh",
+          "t": 778.5,
+          "text": "1 enemy down. I think jumping in was correct but should have been behind cover",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6hn7mqncg3",
+            "child": "mwh6ipxs8dg3o"
+          }
+        },
+        {
+          "id": "mwh6loyyp7v5d",
+          "t": 782.7,
+          "text": "Please practice kicking melee player",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6hn7mqncg3",
+            "child": "mwh6ipxs8dg3o"
+          },
+          "photos": [
+            "mwh6loia2um2w.jpg"
+          ]
+        },
+        {
+          "id": "mwh6ntygoz3hl",
+          "t": 820.8,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6v5qnxxou6"
+          },
+          "photos": [
+            "mwh6ntcmjljzx.jpg"
+          ]
+        },
+        {
+          "id": "mwh6sg9edtqab",
+          "t": 839.1,
+          "text": "Can you shoot the lockbolt and get free?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6zmnqqz6x3",
+            "child": "mwh70pww5xqyk"
+          },
+          "photos": [
+            "mwh6sfeiklk6c.jpg"
+          ]
+        },
+        {
+          "id": "mwh740vgg794u",
+          "t": 872,
+          "text": "Should have taken the rope to engage more quickly",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6zmnqqz6x3",
+            "child": "mwh73ppr46l0x"
+          },
+          "photos": [
+            "mwh7406m4rejl.jpg"
+          ]
+        },
+        {
+          "id": "mwh6zrder394k",
+          "t": 903.3,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6zmnqqz6x3"
+          },
+          "photos": [
+            "mwh6zoyackgeb.jpg"
+          ]
+        },
+        {
+          "id": "mwh72h4lrdtif",
+          "t": 904.7,
+          "text": "Throwing a pyro mine inside a burning fire seems like a waste",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6zmnqqz6x3",
+            "child": "mwh7236vjs5m7"
+          },
+          "photos": [
+            "mwh72g9p8lh5i.jpg"
+          ]
+        },
+        {
+          "id": "mwh75cy3vn1xq",
+          "t": 918.7,
+          "text": "What should I do against charge and slam?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh6zmnqqz6x3",
+            "child": "mwh74tkk8obzb"
+          },
+          "photos": [
+            "mwh75cc3fm0v0.jpg"
+          ]
+        },
+        {
+          "id": "mwh79d82o8ua8",
+          "t": 971.1,
+          "text": "Shoot - Turn - Sprint - Cover well done. Reload rocket launcher ASAP",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh77syvth02u",
+            "child": "mwh78jlmyvvcr"
+          },
+          "photos": [
+            "mwh79cla1ad3y.jpg"
+          ]
+        },
+        {
+          "id": "mwh7bif94aakn",
+          "t": 1009.8,
+          "text": "Panic gooing. Place goo on more stable structure",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh77syvth02u",
+            "child": "mwh7bg6uu0cdm"
+          },
+          "photos": [
+            "mwh7bhssdwv14.jpg"
+          ]
+        },
+        {
+          "id": "mwh77vje6iwbd",
+          "t": 1010.3,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh77syvth02u"
+          },
+          "photos": [
+            "mwh77v0jmfrww.jpg"
+          ]
+        },
+        {
+          "id": "mwh7cumyjn4s5",
+          "t": 1040.6,
+          "text": "Could have used window jump to join team quicker",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh77syvth02u",
+            "child": "mwh7crd01r1pe"
+          },
+          "photos": [
+            "mwh7csur4cmzl.jpg"
+          ]
+        },
+        {
+          "id": "mwh7eytegf7un",
+          "t": 1117.3,
+          "text": "Cash Box",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7eu767mmer"
+          },
+          "photos": [
+            "mwh7exnotminl.jpg"
+          ]
+        },
+        {
+          "id": "mwh7h5y7f5z8h",
+          "t": 1135.9,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x"
+          },
+          "photos": [
+            "mwh7h4nykqn8r.jpg"
+          ]
+        },
+        {
+          "id": "mwh7lm4irnr82",
+          "t": 1312.4,
+          "text": "Final Round Spawn",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3zazm1ayyi"
+          },
+          "photos": [
+            "mwh7llbqrly82.jpg"
+          ]
+        },
+        {
+          "id": "mwh7nlsj87xq2",
+          "t": 1330.7,
+          "text": "Cash Box",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7niaaa570l"
+          },
+          "photos": [
+            "mwh7nkmo4xpl5.jpg"
+          ]
+        },
+        {
+          "id": "mwh7pl3gc759i",
+          "t": 1339.3,
+          "text": "Clean Two Tap",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7niaaa570l",
+            "child": "mwh7pj631ts0c"
+          },
+          "photos": [
+            "mwh7pkk3217d7.jpg"
+          ]
+        },
+        {
+          "id": "mwh7rg1oymvnr",
+          "t": 1387,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7rcf09p12t"
+          },
+          "photos": [
+            "mwh7rfesczh08.jpg"
+          ]
+        },
+        {
+          "id": "mwh7t9f8fiei0",
+          "t": 1436.7,
+          "text": "Is goo cocoon worth it in this open wall situation?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7rcf09p12t",
+            "child": "mwh7sx16s0v3e"
+          },
+          "photos": [
+            "mwh7t8724qy0e.jpg"
+          ]
+        },
+        {
+          "id": "mwh7uzhmv5nr8",
+          "t": 1483.4,
+          "text": "Stayed in open area for too long",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7rcf09p12t",
+            "child": "mwh7uxsc9exhb"
+          },
+          "photos": [
+            "mwh7uywukabts.jpg"
+          ]
+        },
+        {
+          "id": "mwh7zqzdieeg3",
+          "t": 1507.9,
+          "text": "Could have said \"one more behind you\" \"kill last enemy then revive\"",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh7rcf09p12t",
+            "child": "mwh7ys2inxuz7"
+          },
+          "photos": [
+            "mwh7zqfrc2x89.jpg"
+          ]
+        },
+        {
+          "id": "mwh83sfp8rzgg",
+          "t": 1553.6,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh83q29x91b4"
+          },
+          "photos": [
+            "mwh83ros6qvw7.jpg"
+          ]
+        },
+        {
+          "id": "mwh86buertq0o",
+          "t": 1635.1,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh86a28a553x"
+          },
+          "photos": [
+            "mwh86baumr5l4.jpg"
+          ]
+        },
+        {
+          "id": "mwh87wp8h6qnj",
+          "t": 1638,
+          "text": "Enemy below but team was split. I should have followed in with the team",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh86a28a553x",
+            "child": "mwh879bz5hocb"
+          },
+          "photos": [
+            "mwh87vxs56xx5.jpg"
+          ]
+        },
+        {
+          "id": "mwh8a4ncd1qzs",
+          "t": 1680.9,
+          "text": "Why did proximity sensor not detect the enemy in the bar? I thought I placed a sensor right above him",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh86a28a553x",
+            "child": "mwh89filfqupk"
+          },
+          "photos": [
+            "mwh8a3zzmxv8m.jpg"
+          ]
+        },
+        {
+          "id": "mwh8feenulcxq",
+          "t": 1835.2,
+          "text": "Approaching cashout station and enemy is most likely well positioned. How should I approach so that I have position advantage?",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh8egmlytgwv"
+          },
+          "photos": [
+            "mwh8faxkrzj56.jpg"
+          ]
+        },
+        {
+          "id": "mwh8gs2ca275z",
+          "t": 1864.8,
+          "text": "Please kick away melee players",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh8gpzrv18ek"
+          },
+          "photos": [
+            "mwh8grc0l7x05.jpg"
+          ]
+        },
+        {
+          "id": "mwh8jkiz5ayrq",
+          "t": 1915.4,
+          "text": "Good job at finding cover after damage, but should be less aggressive when damaged",
+          "link": {
+            "map": "Las Vegas.webp",
+            "poi": "mwh3mirftzg1x",
+            "child": "mwh8jgme567p4"
+          },
+          "photos": [
+            "mwh8jjyiqrt57.jpg"
+          ]
+        }
+      ],
+      "duration": 1940.8,
+      "youtube": "https://youtu.be/V_qHrfq5wz4"
     }
   }
 }
