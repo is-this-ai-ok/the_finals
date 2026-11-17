@@ -43,6 +43,8 @@ const SECONDARY_TYPES = [
   { id: 'window_jump', label: 'Window Jump', appIcon: 'window_jump.svg' },
   { id: 'question', label: 'Question', appIcon: 'question.svg', textField: 'Question' },
   { id: 'communication', label: 'Communication', appIcon: 'communication.svg', textField: 'Callout' },
+  { id: 'drill', label: 'Drill', appIcon: 'drill.svg', textField: 'Drill' },
+  { id: 'note_to_self', label: 'Note to Self', appIcon: 'note_to_self.svg', textField: 'Note' },
 ];
 
 const typesForClient = (types) =>

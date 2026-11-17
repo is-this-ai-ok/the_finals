@@ -35,6 +35,27 @@ body { display: flex; overflow: hidden; }
 section { padding: 12px 14px; border-bottom: 1px solid var(--border); }
 section.grow { flex: 1; }
 
+/* Top of the sidebar, so it's the first thing in the top-left corner. */
+#prototype-banner {
+  position: sticky; /* stays visible while the sidebar scrolls */
+  top: 0;
+  z-index: 5;
+  flex-shrink: 0;
+  padding: 14px 14px 12px;
+  background: var(--danger);
+  color: #fff;
+  text-align: center;
+}
+#prototype-banner strong {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+#prototype-banner span { display: block; margin-top: 6px; font-size: 12px; font-weight: 500; }
+
 h2 {
   margin: 0 0 8px;
   font-size: 11px;

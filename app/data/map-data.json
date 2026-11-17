@@ -2071,7 +2071,697 @@
       "rotation": 90,
       "northLocked": true,
       "gridSpacing": "auto",
-      "pois": [],
+      "pois": [
+        {
+          "id": "mwjwi271g3yh0",
+          "type": "spawn",
+          "imagePos": {
+            "x": 4801,
+            "y": 1472.9
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2031.1,
+            "y": 665
+          }
+        },
+        {
+          "id": "mwjwj4bjm3fvg",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 3759.2,
+            "y": 1136.4
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2367.6,
+            "y": 1706.8
+          }
+        },
+        {
+          "id": "mwjwlz3lo7d7m",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3086.5,
+            "y": 3093.1
+          },
+          "children": [
+            {
+              "id": "mwjwnppkscd1g",
+              "type": "question",
+              "imagePos": {
+                "x": 3286.5,
+                "y": 3026.3
+              },
+              "gridPos": {
+                "x": 477.7,
+                "y": 2179.5
+              }
+            },
+            {
+              "id": "mwjwpyghoqmqq",
+              "type": "duel",
+              "imagePos": {
+                "x": 3093.3,
+                "y": 3049.5
+              },
+              "gridPos": {
+                "x": 454.5,
+                "y": 2372.7
+              }
+            },
+            {
+              "id": "mwk6zppe4xqq9",
+              "type": "drill",
+              "imagePos": {
+                "x": 3443.4,
+                "y": 2726
+              },
+              "gridPos": {
+                "x": 778,
+                "y": 2022.6
+              }
+            },
+            {
+              "id": "mwk70f18eoojr",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3100.8,
+                "y": 2905.5
+              },
+              "gridPos": {
+                "x": 598.5,
+                "y": 2365.2
+              }
+            },
+            {
+              "id": "mwk73m85exmb6",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3136.9,
+                "y": 2940.3
+              },
+              "gridPos": {
+                "x": 563.7,
+                "y": 2329.1
+              }
+            },
+            {
+              "id": "mwk755pnk6g6r",
+              "type": "drill",
+              "imagePos": {
+                "x": 3201.9,
+                "y": 3078.4
+              },
+              "gridPos": {
+                "x": 425.6,
+                "y": 2264.1
+              }
+            },
+            {
+              "id": "mwk76dhbsff4a",
+              "type": "drill",
+              "imagePos": {
+                "x": 3130,
+                "y": 3113
+              },
+              "gridPos": {
+                "x": 391,
+                "y": 2336
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 410.9,
+            "y": 2379.5
+          }
+        },
+        {
+          "id": "mwjwsfskv6t0i",
+          "type": "spawn",
+          "imagePos": {
+            "x": 758.8,
+            "y": 2237.6
+          },
+          "children": [
+            {
+              "id": "mwjwt75ssifci",
+              "type": "question",
+              "imagePos": {
+                "x": 1366.9,
+                "y": 1998.9
+              },
+              "gridPos": {
+                "x": 1505.1,
+                "y": 4099.1
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1266.4,
+            "y": 4707.2
+          }
+        },
+        {
+          "id": "mwjwv61lo7itb",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 1998.7,
+            "y": 1996.8
+          },
+          "children": [],
+          "gridPos": {
+            "x": 1507.2,
+            "y": 3467.3
+          }
+        },
+        {
+          "id": "mwjx3svb7dojq",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 752.1,
+            "y": 1630.8
+          },
+          "children": [
+            {
+              "id": "mwjx680r1sx2g",
+              "type": "question",
+              "imagePos": {
+                "x": 785.9,
+                "y": 1660.1
+              },
+              "gridPos": {
+                "x": 1843.9,
+                "y": 4680.1
+              }
+            },
+            {
+              "id": "mwjx7eonsw8x4",
+              "type": "question",
+              "imagePos": {
+                "x": 705.1,
+                "y": 1541.4
+              },
+              "gridPos": {
+                "x": 1962.6,
+                "y": 4760.9
+              }
+            },
+            {
+              "id": "mwjx9dvmf65x1",
+              "type": "question",
+              "imagePos": {
+                "x": 748.5,
+                "y": 1520.2
+              },
+              "gridPos": {
+                "x": 1983.8,
+                "y": 4717.5
+              }
+            },
+            {
+              "id": "mwjxater8c3fq",
+              "type": "question",
+              "imagePos": {
+                "x": 750.8,
+                "y": 1703.5
+              },
+              "gridPos": {
+                "x": 1800.5,
+                "y": 4715.2
+              }
+            },
+            {
+              "id": "mwk56qz2kuz08",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 706.6,
+                "y": 1596.6
+              },
+              "gridPos": {
+                "x": 1907.4,
+                "y": 4759.4
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1873.2,
+            "y": 4713.9
+          }
+        },
+        {
+          "id": "mwk4slclr94ui",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3479.8,
+            "y": 284.1
+          },
+          "children": [],
+          "gridPos": {
+            "x": 3219.9,
+            "y": 1986.2
+          }
+        },
+        {
+          "id": "mwk4u5jauw0fj",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 4182.9,
+            "y": 1834.5
+          },
+          "children": [
+            {
+              "id": "mwk569zlghkj4",
+              "type": "drill",
+              "imagePos": {
+                "x": 4098.4,
+                "y": 1706.8
+              },
+              "gridPos": {
+                "x": 1797.2,
+                "y": 1367.6
+              }
+            },
+            {
+              "id": "mwk589v3i9xwr",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 4196.8,
+                "y": 1673.2
+              },
+              "gridPos": {
+                "x": 1830.8,
+                "y": 1269.2
+              }
+            },
+            {
+              "id": "mwk5benaq3eu1",
+              "type": "question",
+              "imagePos": {
+                "x": 4103.8,
+                "y": 1969.3
+              },
+              "gridPos": {
+                "x": 1534.7,
+                "y": 1362.2
+              }
+            },
+            {
+              "id": "mwk5dcqf9hwvs",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 4065.4,
+                "y": 1951.4
+              },
+              "gridPos": {
+                "x": 1552.6,
+                "y": 1400.6
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1669.5,
+            "y": 1283.1
+          }
+        },
+        {
+          "id": "mwk5h1lch53qg",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 3832.4,
+            "y": 1757.9
+          },
+          "children": [
+            {
+              "id": "mwk5i5405yk23",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3891.8,
+                "y": 1842.9
+              },
+              "gridPos": {
+                "x": 1661.1,
+                "y": 1574.2
+              }
+            },
+            {
+              "id": "mwk5iwp5dmzns",
+              "type": "drill",
+              "imagePos": {
+                "x": 3676.3,
+                "y": 2087.6
+              },
+              "gridPos": {
+                "x": 1416.4,
+                "y": 1789.7
+              }
+            },
+            {
+              "id": "mwk5joh5yeale",
+              "type": "drill",
+              "imagePos": {
+                "x": 3833.5,
+                "y": 1937.3
+              },
+              "gridPos": {
+                "x": 1566.7,
+                "y": 1632.5
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1746.1,
+            "y": 1633.6
+          }
+        },
+        {
+          "id": "mwk5n19xqo17k",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3825.2,
+            "y": 3067.5
+          },
+          "children": [
+            {
+              "id": "mwk5ns0u2j31o",
+              "type": "drill",
+              "imagePos": {
+                "x": 3756.9,
+                "y": 3024.1
+              },
+              "gridPos": {
+                "x": 479.9,
+                "y": 1709.1
+              }
+            },
+            {
+              "id": "mwk5oodtsohl2",
+              "type": "drill",
+              "imagePos": {
+                "x": 3632.6,
+                "y": 3080.9
+              },
+              "gridPos": {
+                "x": 423.1,
+                "y": 1833.4
+              }
+            },
+            {
+              "id": "mwk5qih6507sr",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3810.8,
+                "y": 3165.3
+              },
+              "gridPos": {
+                "x": 338.7,
+                "y": 1655.2
+              }
+            },
+            {
+              "id": "mwk5s5valm8y7",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3811,
+                "y": 2809.4
+              },
+              "gridPos": {
+                "x": 694.6,
+                "y": 1655
+              }
+            },
+            {
+              "id": "mwk5t5lr5mdbe",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3758.9,
+                "y": 2828.4
+              },
+              "gridPos": {
+                "x": 675.6,
+                "y": 1707.1
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 436.5,
+            "y": 1640.8
+          }
+        },
+        {
+          "id": "mwk5wkhamd79w",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3386.7,
+            "y": 495.4
+          },
+          "children": [
+            {
+              "id": "mwk5y2be66jgm",
+              "type": "drill",
+              "imagePos": {
+                "x": 3367.2,
+                "y": 417.9
+              },
+              "gridPos": {
+                "x": 3086.1,
+                "y": 2098.8
+              }
+            },
+            {
+              "id": "mwk61acyjz30l",
+              "type": "drill",
+              "imagePos": {
+                "x": 3146.2,
+                "y": 600.1
+              },
+              "gridPos": {
+                "x": 2903.9,
+                "y": 2319.8
+              }
+            },
+            {
+              "id": "mwk63ov7d6lf4",
+              "type": "communication",
+              "imagePos": {
+                "x": 3351.7,
+                "y": 719
+              },
+              "gridPos": {
+                "x": 2785,
+                "y": 2114.3
+              }
+            },
+            {
+              "id": "mwk64zyvmz493",
+              "type": "drill",
+              "imagePos": {
+                "x": 3495.7,
+                "y": 712.5
+              },
+              "gridPos": {
+                "x": 2791.5,
+                "y": 1970.3
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 3008.6,
+            "y": 2079.3
+          }
+        },
+        {
+          "id": "mwk67z9g5io5c",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 3857.1,
+            "y": 2406.7
+          },
+          "children": [
+            {
+              "id": "mwk699gj4ygc1",
+              "type": "question",
+              "imagePos": {
+                "x": 3715.9,
+                "y": 2316.4
+              },
+              "gridPos": {
+                "x": 1187.6,
+                "y": 1750.1
+              }
+            },
+            {
+              "id": "mwk6afps3i1rb",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3754.8,
+                "y": 2308.1
+              },
+              "gridPos": {
+                "x": 1195.9,
+                "y": 1711.2
+              }
+            },
+            {
+              "id": "mwk6carli26hs",
+              "type": "drill",
+              "imagePos": {
+                "x": 3746.5,
+                "y": 2486.2
+              },
+              "gridPos": {
+                "x": 1017.8,
+                "y": 1719.5
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1097.3,
+            "y": 1608.9
+          }
+        },
+        {
+          "id": "mwk6fmk33wred",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3421.9,
+            "y": 3133.1
+          },
+          "children": [],
+          "gridPos": {
+            "x": 370.9,
+            "y": 2044.1
+          }
+        },
+        {
+          "id": "mwk6gsfmjhly6",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 3440.7,
+            "y": 1883.8
+          },
+          "children": [
+            {
+              "id": "mwk6iqwhxants",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 3539.3,
+                "y": 2016.7
+              },
+              "gridPos": {
+                "x": 1487.3,
+                "y": 1926.7
+              }
+            },
+            {
+              "id": "mwk6jq4vu8d8g",
+              "type": "drill",
+              "imagePos": {
+                "x": 3771.8,
+                "y": 1982.3
+              },
+              "gridPos": {
+                "x": 1521.7,
+                "y": 1694.2
+              }
+            },
+            {
+              "id": "mwk6l95aya9ow",
+              "type": "question",
+              "imagePos": {
+                "x": 3968,
+                "y": 2051.9
+              },
+              "gridPos": {
+                "x": 1452.1,
+                "y": 1498
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1620.2,
+            "y": 2025.3
+          }
+        },
+        {
+          "id": "mwk6p93eruf76",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1855.2,
+            "y": 2069.9
+          },
+          "children": [
+            {
+              "id": "mwk6qbaf2ocfu",
+              "type": "drill",
+              "imagePos": {
+                "x": 1893.8,
+                "y": 2008.2
+              },
+              "gridPos": {
+                "x": 1495.8,
+                "y": 3572.2
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1434.1,
+            "y": 3610.8
+          }
+        },
+        {
+          "id": "mwk6t5k2lgn3n",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3024.7,
+            "y": 2062.5
+          },
+          "children": [],
+          "gridPos": {
+            "x": 1441.5,
+            "y": 2441.3
+          }
+        },
+        {
+          "id": "mwk6v8pyj3pmb",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 4205.7,
+            "y": 1408.7
+          },
+          "children": [
+            {
+              "id": "mwk6wa11rnmmh",
+              "type": "drill",
+              "imagePos": {
+                "x": 4145,
+                "y": 1482.9
+              },
+              "gridPos": {
+                "x": 2021.1,
+                "y": 1321
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2095.3,
+            "y": 1260.3
+          }
+        },
+        {
+          "id": "mwk72k4wnnxi6",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3598,
+            "y": 1696.3
+          },
+          "children": [],
+          "gridPos": {
+            "x": 1807.7,
+            "y": 1868
+          }
+        }
+      ],
       "imageSize": {
         "width": 5466,
         "height": 3504
@@ -2632,7 +3322,23 @@
           ]
         }
       ],
-      "distanceRefs": []
+      "distanceRefs": [
+        {
+          "a": "mwjwsfskv6t0i",
+          "b": "mwjwv61lo7itb",
+          "meters": 92
+        },
+        {
+          "a": "mwk6fmk33wred",
+          "b": "mwk6gsfmjhly6",
+          "meters": 77
+        },
+        {
+          "a": "mwk6t5k2lgn3n",
+          "b": "mwk6v8pyj3pmb",
+          "meters": 94
+        }
+      ]
     },
     "Las Vegas.webp": {
       "rotation": -90,
@@ -12383,12 +13089,27 @@
           ]
         }
       ]
+    },
+    "ape_squad_logo.png": {
+      "rotation": 0,
+      "northLocked": false,
+      "gridSpacing": "auto",
+      "pois": [],
+      "distanceRefs": [],
+      "imageSize": {
+        "width": 600,
+        "height": 600
+      },
+      "gridSize": {
+        "width": 600,
+        "height": 600
+      }
     }
   },
   "settings": {
-    "iconSize": 23,
+    "iconSize": 32,
     "hiddenTypes": [],
-    "showZones": false
+    "showZones": true
   },
   "vods": {
     "2026-11-09_1_Skyway-Stadium.mp4": {
@@ -13467,6 +14188,710 @@
       ],
       "duration": 1940.8,
       "youtube": "https://youtu.be/V_qHrfq5wz4"
+    },
+    "2026-11-15_2_Fortune-Stadium.mp4": {
+      "map": "ape_squad_logo.png",
+      "timestamps": [
+        {
+          "id": "mwjwi5ki9opgv",
+          "t": 39,
+          "text": "Round 1 Spawn",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwi271g3yh0"
+          },
+          "photos": [
+            "mwjwi4p08l6bp.jpg"
+          ]
+        },
+        {
+          "id": "mwjwj7o61ctsc",
+          "t": 50,
+          "text": "Cash Box",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwj4bjm3fvg"
+          },
+          "photos": [
+            "mwjwj6ixyx3f5.jpg"
+          ]
+        },
+        {
+          "id": "mwjwm14qy48sw",
+          "t": 131.4,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m"
+          },
+          "photos": [
+            "mwjwm04vny9b0.jpg"
+          ]
+        },
+        {
+          "id": "mwjwo7bql4lmh",
+          "t": 162.1,
+          "text": "Could have blocked the door with goo so that I can focus on the enemy on the left",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwjwnppkscd1g"
+          },
+          "photos": [
+            "mwjwo6nt7ky9v.jpg"
+          ]
+        },
+        {
+          "id": "mwjwqdjdag9pv",
+          "t": 201,
+          "text": "I tried sliding hop to get behind the enemy sight. failed but tried",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwjwpyghoqmqq"
+          },
+          "photos": [
+            "mwjwq0iyqre3y.jpg"
+          ]
+        },
+        {
+          "id": "mwjwrl61pdrfh",
+          "t": 240.9,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwsfskv6t0i"
+          },
+          "photos": [
+            "mwjwrkb8js8jv.jpg"
+          ]
+        },
+        {
+          "id": "mwjwtwr2phq4u",
+          "t": 250.1,
+          "text": "What's the right amount of b-hop? 1 jump then slide? or 2 jumps?",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwsfskv6t0i",
+            "child": "mwjwt75ssifci"
+          },
+          "photos": [
+            "mwjwtved64q8b.jpg"
+          ]
+        },
+        {
+          "id": "mwjwv7n9ur3er",
+          "t": 267.7,
+          "text": "Cash Box",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwv61lo7itb"
+          },
+          "photos": [
+            "mwjwv70g89uxk.jpg"
+          ]
+        },
+        {
+          "id": "mwjx3ukkw54mc",
+          "t": 298.7,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq"
+          },
+          "photos": [
+            "mwjx3u078b6ns.jpg"
+          ]
+        },
+        {
+          "id": "mwjx6a7kla8id",
+          "t": 313,
+          "text": "Try using anti-gravity to float up the station and goo it on the ceiling",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq",
+            "child": "mwjx680r1sx2g"
+          },
+          "photos": [
+            "mwjx69a2uqa0l.jpg"
+          ]
+        },
+        {
+          "id": "mwjx7gdvygx3k",
+          "t": 321.2,
+          "text": "I like this goo playground I'm making",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq",
+            "child": "mwjx7eonsw8x4"
+          },
+          "photos": [
+            "mwjx7fx9xq6jf.jpg"
+          ]
+        },
+        {
+          "id": "mwjx9fxx56xe6",
+          "t": 374.6,
+          "text": "Is this a good use of anti-gravity cube? The station never got lifted up.",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq",
+            "child": "mwjx9dvmf65x1"
+          },
+          "photos": [
+            "mwjx9fg8bk1oe.jpg"
+          ]
+        },
+        {
+          "id": "mwjxaw5y98kmr",
+          "t": 396,
+          "text": "Please stop shooting yourself with RPG",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq",
+            "child": "mwjxater8c3fq"
+          },
+          "photos": [
+            "mwjxaurefw3yo.jpg"
+          ]
+        },
+        {
+          "id": "mwjxez8bd5mb6",
+          "t": 414.3,
+          "text": "Use goo on turret, its quicker",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjx3svb7dojq",
+            "child": "mwk56qz2kuz08"
+          },
+          "photos": [
+            "mwjxexdbl2wo0.jpg"
+          ]
+        },
+        {
+          "id": "mwk4sn4jka58w",
+          "t": 464.8,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4slclr94ui"
+          },
+          "photos": [
+            "mwk4smjr771af.jpg"
+          ]
+        },
+        {
+          "id": "mwk4u7r3ientd",
+          "t": 494.6,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4u5jauw0fj"
+          },
+          "photos": [
+            "mwk4u70t5aym0.jpg"
+          ]
+        },
+        {
+          "id": "mwk56btvibb5m",
+          "t": 505.5,
+          "text": "Practicing: Take statue and change vertical space to revive",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4u5jauw0fj",
+            "child": "mwk569zlghkj4"
+          },
+          "photos": [
+            "mwk56b5zeozq2.jpg"
+          ]
+        },
+        {
+          "id": "mwk58s1oeflwa",
+          "t": 539.5,
+          "text": "Place mine quicker if you are cornered and know the enemy is coming",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4u5jauw0fj",
+            "child": "mwk589v3i9xwr"
+          },
+          "photos": [
+            "mwk58rhuxlw1c.jpg"
+          ]
+        },
+        {
+          "id": "mwk5c0oe430fm",
+          "t": 590.1,
+          "text": "I like this off angle position but very open. What could be the better decision in this scenario?",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4u5jauw0fj",
+            "child": "mwk5benaq3eu1"
+          },
+          "photos": [
+            "mwk5c044cncfj.jpg"
+          ]
+        },
+        {
+          "id": "mwk5d4vd0y13y",
+          "t": 591.6,
+          "text": "When you disengage, completely disengage and wait for your health to be back up",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk4u5jauw0fj",
+            "child": "mwk5dcqf9hwvs"
+          },
+          "photos": [
+            "mwk5d4b8m0zaj.jpg"
+          ]
+        },
+        {
+          "id": "mwk5g5kspgiqn",
+          "t": 675.8,
+          "text": "Round 2 Spawn",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwi271g3yh0"
+          },
+          "photos": [
+            "mwk5g4v694q5b.jpg"
+          ]
+        },
+        {
+          "id": "mwk5h3ajhwccb",
+          "t": 687.7,
+          "text": "Cash Box",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5h1lch53qg"
+          },
+          "photos": [
+            "mwk5h2sy6pycr.jpg"
+          ]
+        },
+        {
+          "id": "mwk5i6xgmkyey",
+          "t": 702.3,
+          "text": "Bad goo block",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5h1lch53qg",
+            "child": "mwk5i5405yk23"
+          },
+          "photos": [
+            "mwk5i6ijx34ch.jpg"
+          ]
+        },
+        {
+          "id": "mwk5j50iv80d4",
+          "t": 718.4,
+          "text": "Practicing: Place mine of statue",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5h1lch53qg",
+            "child": "mwk5iwp5dmzns"
+          },
+          "photos": [
+            "mwk5j4f2k2u6e.jpg"
+          ]
+        },
+        {
+          "id": "mwk5k1nbhwi59",
+          "t": 727.4,
+          "text": "Practicing: Take statue and change vertical space to revive",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5h1lch53qg",
+            "child": "mwk5joh5yeale"
+          },
+          "photos": [
+            "mwk5k15hpeu4g.jpg"
+          ]
+        },
+        {
+          "id": "mwk5n44stycj5",
+          "t": 765.4,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k"
+          },
+          "photos": [
+            "mwk5n3nebqpc3.jpg"
+          ]
+        },
+        {
+          "id": "mwk5o2rpod97o",
+          "t": 783.5,
+          "text": "Practicing: Close doors to block line of sight",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k",
+            "child": "mwk5ns0u2j31o"
+          },
+          "photos": [
+            "mwk5o28qsxdru.jpg"
+          ]
+        },
+        {
+          "id": "mwk5p2ez9dcdf",
+          "t": 793,
+          "text": "Practicing: Block entrance to funnel enemy into one way",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k",
+            "child": "mwk5oodtsohl2"
+          },
+          "photos": [
+            "mwk5p1vccskzf.jpg"
+          ]
+        },
+        {
+          "id": "mwk5rhpx5hsbq",
+          "t": 803.9,
+          "text": "Destroy wall to provide sight into enemy direction",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k",
+            "child": "mwk5qih6507sr"
+          },
+          "photos": [
+            "mwk5rh2kia4vm.jpg"
+          ]
+        },
+        {
+          "id": "mwk5sobvlxyxg",
+          "t": 813.5,
+          "text": "RPG on sloped angle is difficult and high chance of missing the target",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k",
+            "child": "mwk5s5valm8y7"
+          },
+          "photos": [
+            "mwk5snv4rtk3a.jpg"
+          ]
+        },
+        {
+          "id": "mwk5tokvtimcy",
+          "t": 819.6,
+          "text": "Block door with goo so that enemy is forced to go through one way",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5n19xqo17k",
+            "child": "mwk5t5lr5mdbe"
+          },
+          "photos": [
+            "mwk5to2gkgik0.jpg"
+          ]
+        },
+        {
+          "id": "mwk5wm5xb8jis",
+          "t": 922.5,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5wkhamd79w"
+          },
+          "photos": [
+            "mwk5wllt6izjt.jpg"
+          ]
+        },
+        {
+          "id": "mwk5yix3x2knd",
+          "t": 965.5,
+          "text": "Practice: Goo the mine",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5wkhamd79w",
+            "child": "mwk5y2be66jgm"
+          },
+          "photos": [
+            "mwk5yi6dprxfz.jpg"
+          ]
+        },
+        {
+          "id": "mwk61ywoe8fwu",
+          "t": 1018.9,
+          "text": "Practice: Scan the space (I think I would have seen enemy on my right)",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5wkhamd79w",
+            "child": "mwk61acyjz30l"
+          },
+          "photos": [
+            "mwk61y6o3d8jb.jpg"
+          ]
+        },
+        {
+          "id": "mwk64a4f00i3v",
+          "t": 1065.2,
+          "text": "Appreciate good plays",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5wkhamd79w",
+            "child": "mwk63ov7d6lf4"
+          },
+          "photos": [
+            "mwk649elb0t62.jpg"
+          ]
+        },
+        {
+          "id": "mwk65ej9dwqj6",
+          "t": 1078.9,
+          "text": "Practicing: Place mine on statue (this was a waste though)",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk5wkhamd79w",
+            "child": "mwk64zyvmz493"
+          },
+          "photos": [
+            "mwk65dvxfxidl.jpg"
+          ]
+        },
+        {
+          "id": "mwk6813n0cyhn",
+          "t": 1126,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk67z9g5io5c"
+          },
+          "photos": [
+            "mwk680nb7ibgc.jpg"
+          ]
+        },
+        {
+          "id": "mwk6a5w9bnycn",
+          "t": 1163.6,
+          "text": "ADS makes the enemy bigger but I feel less accurate with it",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk67z9g5io5c",
+            "child": "mwk699gj4ygc1"
+          },
+          "photos": [
+            "mwk6a58ov09bo.jpg"
+          ]
+        },
+        {
+          "id": "mwk6aunbsayp1",
+          "t": 1169.4,
+          "text": "Place two goo for additional cover",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk67z9g5io5c",
+            "child": "mwk6afps3i1rb"
+          },
+          "photos": [
+            "mwk6atopea0vl.jpg"
+          ]
+        },
+        {
+          "id": "mwk6cy7bsw8v0",
+          "t": 1211.7,
+          "text": "Practicing: Tried to do sliding hop to get behind enemy",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk67z9g5io5c",
+            "child": "mwk6carli26hs"
+          },
+          "photos": [
+            "mwk6cxi3jokzc.jpg"
+          ]
+        },
+        {
+          "id": "mwk6fqlqq78nc",
+          "t": 1295,
+          "text": "Final Round Spawn",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6fmk33wred"
+          },
+          "photos": [
+            "mwk6fps97dfw3.jpg"
+          ]
+        },
+        {
+          "id": "mwk6jcbqbyemx",
+          "t": 1339.6,
+          "text": "Not a bad idea, but quicker. Destroy the top part of the wall",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6gsfmjhly6",
+            "child": "mwk6iqwhxants"
+          },
+          "photos": [
+            "mwk6jbsxwkl82.jpg"
+          ]
+        },
+        {
+          "id": "mwk6jxepkb7gq",
+          "t": 1348.6,
+          "text": "Practicing: Place mine on statue",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6gsfmjhly6",
+            "child": "mwk6jq4vu8d8g"
+          },
+          "photos": [
+            "mwk6jwtml4xy6.jpg"
+          ]
+        },
+        {
+          "id": "mwk6lz6rw5g9p",
+          "t": 1363.9,
+          "text": "Low health and 1 enemy left. What could I've done to stay alive?",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6gsfmjhly6",
+            "child": "mwk6l95aya9ow"
+          },
+          "photos": [
+            "mwk6lyq9oi9vn.jpg"
+          ]
+        },
+        {
+          "id": "mwk6paq4bw3sm",
+          "t": 1412.2,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6p93eruf76"
+          },
+          "photos": [
+            "mwk6pa9x60hbn.jpg"
+          ]
+        },
+        {
+          "id": "mwk6qmq1opr7n",
+          "t": 1442.3,
+          "text": "Practicing: First kick on enemy in real game",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6p93eruf76",
+            "child": "mwk6qbaf2ocfu"
+          },
+          "photos": [
+            "mwk6qm6jjoakq.jpg"
+          ]
+        },
+        {
+          "id": "mwk6t76udn88f",
+          "t": 1495.8,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6t5k2lgn3n"
+          },
+          "photos": [
+            "mwk6t6j1iteys.jpg"
+          ]
+        },
+        {
+          "id": "mwk6vc6p61y73",
+          "t": 1518.5,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6v8pyj3pmb"
+          },
+          "photos": [
+            "mwk6vblzu7oii.jpg"
+          ]
+        },
+        {
+          "id": "mwk6wjr177uoa",
+          "t": 1523.6,
+          "text": "Practicing: Close door and place mine",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk6v8pyj3pmb",
+            "child": "mwk6wa11rnmmh"
+          },
+          "photos": [
+            "mwk6wjaz252cl.jpg"
+          ]
+        },
+        {
+          "id": "mwk6zxhy9rarx",
+          "t": 1574.3,
+          "text": "Practicing: Jump pad + RPG",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwk6zppe4xqq9"
+          },
+          "photos": [
+            "mwk6zx1o8t3ix.jpg"
+          ]
+        },
+        {
+          "id": "mwk70sgd78oxf",
+          "t": 1580.8,
+          "text": "You are never going to win 1:3. Disengage immediately",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwk70f18eoojr"
+          },
+          "photos": [
+            "mwk70rvgmzyhy.jpg"
+          ]
+        },
+        {
+          "id": "mwk72m4ti4dyi",
+          "t": 1621.5,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwk72k4wnnxi6"
+          },
+          "photos": [
+            "mwk72ljgdjja8.jpg"
+          ]
+        },
+        {
+          "id": "mwk746gxflp1p",
+          "t": 1643.7,
+          "text": "Favorite play of the match! Off angle by the small ledge",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwk73m85exmb6"
+          },
+          "photos": [
+            "mwk74611iydf3.jpg"
+          ]
+        },
+        {
+          "id": "mwk75rzru3cti",
+          "t": 1660.8,
+          "text": "Practicing: Sliding hop and melee attack in close engagement",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwk755pnk6g6r"
+          },
+          "photos": [
+            "mwk75r4ne4fr5.jpg"
+          ]
+        },
+        {
+          "id": "mwk76ks64edfq",
+          "t": 1671.6,
+          "text": "Goo Mine",
+          "link": {
+            "map": "Fortune Stadium.webp",
+            "poi": "mwjwlz3lo7d7m",
+            "child": "mwk76dhbsff4a"
+          },
+          "photos": [
+            "mwk76j7j8nn8t.jpg"
+          ]
+        }
+      ],
+      "duration": 1691,
+      "youtube": "https://youtu.be/6CDOCdPUamY"
     }
   }
 }
