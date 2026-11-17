@@ -1,0 +1,32 @@
+{
+  "Las Vegas.webp": {
+    "official": "maps/official/Atsuhiro_Las-Vegas_Overview-MAp.png",
+    "titleCrop": {
+      "x": 88,
+      "y": 84,
+      "w": 900,
+      "h": 141
+    },
+    "view": {
+      "x0": -1800,
+      "x1": 1800,
+      "y0": -1810,
+      "y1": 1980
+    }
+  },
+  "Fortune Stadium.webp": {
+    "official": "maps/official/Fortune_Stadium.jpg",
+    "titleCrop": {
+      "x": 40,
+      "y": 45,
+      "w": 960,
+      "h": 120
+    },
+    "view": {
+      "x0": -1720,
+      "x1": 1620,
+      "y0": -2240,
+      "y1": 2733
+    }
+  }
+}
