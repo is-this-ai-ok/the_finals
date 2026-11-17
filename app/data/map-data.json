@@ -955,7 +955,413 @@
       "rotation": 26,
       "northLocked": true,
       "gridSpacing": "auto",
-      "pois": [],
+      "pois": [
+        {
+          "id": "mwkcpwsdecgm5",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3456.1,
+            "y": 3032.8
+          },
+          "children": [
+            {
+              "id": "mwkcta176uwn2",
+              "type": "drill",
+              "imagePos": {
+                "x": 2217,
+                "y": 2873.8
+              },
+              "gridPos": {
+                "x": 2268.9,
+                "y": 1990.7
+              }
+            },
+            {
+              "id": "mwkcwpiuk3hip",
+              "type": "drill",
+              "imagePos": {
+                "x": 1447,
+                "y": 2160.8
+              },
+              "gridPos": {
+                "x": 1889.4,
+                "y": 2969.1
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 3312.9,
+            "y": 1304.6
+          }
+        },
+        {
+          "id": "mwkcybmx28zc9",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1234.1,
+            "y": 2232.9
+          },
+          "children": [
+            {
+              "id": "mwkd0adkckce8",
+              "type": "duel",
+              "imagePos": {
+                "x": 1461.6,
+                "y": 2499
+              },
+              "gridPos": {
+                "x": 1754.2,
+                "y": 2658.7
+              }
+            },
+            {
+              "id": "mwkd29s87rrps",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 1264.6,
+                "y": 2174.2
+              },
+              "gridPos": {
+                "x": 1719.6,
+                "y": 3037
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1666.4,
+            "y": 2997.6
+          }
+        },
+        {
+          "id": "mwkd447hb1de3",
+          "type": "spawn",
+          "imagePos": {
+            "x": 2293.8,
+            "y": 3285
+          },
+          "children": [],
+          "gridPos": {
+            "x": 2157.7,
+            "y": 1587.4
+          }
+        },
+        {
+          "id": "mwkd51mnkm9ac",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 3252.3,
+            "y": 2431.6
+          },
+          "children": [],
+          "gridPos": {
+            "x": 3393.3,
+            "y": 1934.3
+          }
+        },
+        {
+          "id": "mwkd6z4q2uxch",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 4240.5,
+            "y": 2286.9
+          },
+          "children": [
+            {
+              "id": "mwkdatnhseduy",
+              "type": "duel",
+              "imagePos": {
+                "x": 4286.8,
+                "y": 2368
+              },
+              "gridPos": {
+                "x": 4350.9,
+                "y": 1538
+              }
+            },
+            {
+              "id": "mwkdidvnvykb6",
+              "type": "duel",
+              "imagePos": {
+                "x": 2087.1,
+                "y": 2005.5
+              },
+              "gridPos": {
+                "x": 2532.8,
+                "y": 2828.1
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 4344.9,
+            "y": 1631.1
+          }
+        },
+        {
+          "id": "mwkdmdkn2p5tf",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 2147.6,
+            "y": 2560.5
+          },
+          "children": [
+            {
+              "id": "mwkdmskon2nac",
+              "type": "question",
+              "imagePos": {
+                "x": 1840.6,
+                "y": 2530.9
+              },
+              "gridPos": {
+                "x": 2080.9,
+                "y": 2463.9
+              }
+            },
+            {
+              "id": "mwkdoaozt5fy6",
+              "type": "drill",
+              "imagePos": {
+                "x": 2199,
+                "y": 2505.8
+              },
+              "gridPos": {
+                "x": 2414,
+                "y": 2329.3
+              }
+            },
+            {
+              "id": "mwkdqsuf7a61u",
+              "type": "duel",
+              "imagePos": {
+                "x": 2141.2,
+                "y": 2599.3
+              },
+              "gridPos": {
+                "x": 2321.1,
+                "y": 2270.6
+              }
+            },
+            {
+              "id": "mwkdsnh6l55v4",
+              "type": "duel",
+              "imagePos": {
+                "x": 2246.8,
+                "y": 2463.4
+              },
+              "gridPos": {
+                "x": 2475.6,
+                "y": 2346.5
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2343.9,
+            "y": 2302.7
+          }
+        },
+        {
+          "id": "mwkdw25hya9n6",
+          "type": "cash_box",
+          "imagePos": {
+            "x": 2053,
+            "y": 2938.9
+          },
+          "children": [
+            {
+              "id": "mwkdwbnc5zap1",
+              "type": "question",
+              "imagePos": {
+                "x": 2224.4,
+                "y": 2903.6
+              },
+              "gridPos": {
+                "x": 2262.5,
+                "y": 1960.7
+              }
+            },
+            {
+              "id": "mwkdxs1m6n2zf",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 2010.7,
+                "y": 2822.9
+              },
+              "gridPos": {
+                "x": 2105.8,
+                "y": 2126.9
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2092.9,
+            "y": 2004.1
+          }
+        },
+        {
+          "id": "mwke0nmdiu12e",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1746.8,
+            "y": 1803.6
+          },
+          "children": [
+            {
+              "id": "mwke1qe1uspiw",
+              "type": "note_to_self",
+              "imagePos": {
+                "x": 1595,
+                "y": 1611.4
+              },
+              "gridPos": {
+                "x": 2263.2,
+                "y": 3398
+              }
+            },
+            {
+              "id": "mwke30ox7ypy9",
+              "type": "drill",
+              "imagePos": {
+                "x": 1534.4,
+                "y": 1559.7
+              },
+              "gridPos": {
+                "x": 2231.4,
+                "y": 3471
+              }
+            },
+            {
+              "id": "mwke4m3o3s5vh",
+              "type": "question",
+              "imagePos": {
+                "x": 1644.2,
+                "y": 1731.8
+              },
+              "gridPos": {
+                "x": 2254.7,
+                "y": 3268.2
+              }
+            },
+            {
+              "id": "mwke6afrloy0d",
+              "type": "question",
+              "imagePos": {
+                "x": 1711.3,
+                "y": 1803.9
+              },
+              "gridPos": {
+                "x": 2283.4,
+                "y": 3174
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2315.4,
+            "y": 3158.7
+          }
+        },
+        {
+          "id": "mwke9v14q2jhe",
+          "type": "cashout_station",
+          "imagePos": {
+            "x": 1755.4,
+            "y": 422.8
+          },
+          "children": [
+            {
+              "id": "mwkeaoqxi3exe",
+              "type": "question",
+              "imagePos": {
+                "x": 1471,
+                "y": 440.5
+              },
+              "gridPos": {
+                "x": 2665.1,
+                "y": 4504.7
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 2928.5,
+            "y": 4396
+          }
+        },
+        {
+          "id": "mwkecya5sbwkn",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3522,
+            "y": 1634.1
+          },
+          "children": [],
+          "gridPos": {
+            "x": 3985.3,
+            "y": 2532.8
+          }
+        },
+        {
+          "id": "mwkeh6grdyn7s",
+          "type": "spawn",
+          "imagePos": {
+            "x": 3921.7,
+            "y": 2104.3
+          },
+          "children": [
+            {
+              "id": "mwkehsjanht41",
+              "type": "drill",
+              "imagePos": {
+                "x": 3759.4,
+                "y": 2624
+              },
+              "gridPos": {
+                "x": 3764.7,
+                "y": 1539.1
+              }
+            },
+            {
+              "id": "mwkejsqhi4vpz",
+              "type": "question",
+              "imagePos": {
+                "x": 4045.1,
+                "y": 2501.8
+              },
+              "gridPos": {
+                "x": 4075,
+                "y": 1523.7
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 4138.4,
+            "y": 1935
+          }
+        },
+        {
+          "id": "mwkemkj11uaq1",
+          "type": "spawn",
+          "imagePos": {
+            "x": 734.2,
+            "y": 1547.7
+          },
+          "children": [
+            {
+              "id": "mwkeox41kme2q",
+              "type": "drill",
+              "imagePos": {
+                "x": 1282,
+                "y": 2323.1
+              },
+              "gridPos": {
+                "x": 1669.9,
+                "y": 2895.5
+              }
+            }
+          ],
+          "gridPos": {
+            "x": 1517.5,
+            "y": 3832.6
+          }
+        }
+      ],
       "imageSize": {
         "width": 5466,
         "height": 3504
@@ -2065,7 +2471,13 @@
           ]
         }
       ],
-      "distanceRefs": []
+      "distanceRefs": [
+        {
+          "a": "mwkd447hb1de3",
+          "b": "mwkd51mnkm9ac",
+          "meters": 93
+        }
+      ]
     },
     "Fortune Stadium.webp": {
       "rotation": 90,
@@ -14892,6 +15304,429 @@
       ],
       "duration": 1691,
       "youtube": "https://youtu.be/6CDOCdPUamY"
+    },
+    "2026-11-14_1_Fangwai-City.mp4": {
+      "map": "Fangwai City.webp",
+      "timestamps": [
+        {
+          "id": "mwkcpyv4flbjj",
+          "t": 49.5,
+          "text": "Round 1 Spawn",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcpwsdecgm5"
+          },
+          "photos": [
+            "mwkcpy7xx4fwa.jpg"
+          ]
+        },
+        {
+          "id": "mwkctoc5hkibp",
+          "t": 78.5,
+          "text": "Practicing: Sprint to cover when taking damage",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcpwsdecgm5",
+            "child": "mwkcta176uwn2"
+          },
+          "photos": [
+            "mwkctno77u9gr.jpg"
+          ]
+        },
+        {
+          "id": "mwkcx39uu0srt",
+          "t": 108.9,
+          "text": "Practicing: Use 2 goo to create cover",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcpwsdecgm5",
+            "child": "mwkcwpiuk3hip"
+          },
+          "photos": [
+            "mwkcx2ry9079w.jpg"
+          ]
+        },
+        {
+          "id": "mwkcyduq3yqt2",
+          "t": 120,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcybmx28zc9"
+          },
+          "photos": [
+            "mwkcyddad6tue.jpg"
+          ]
+        },
+        {
+          "id": "mwkcz5t5blz6e",
+          "t": 123.7,
+          "text": "Practicing: Use goo to create cover",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcybmx28zc9",
+            "child": "mwkcyw3lfsgqn"
+          },
+          "photos": [
+            "mwkcz5d3o6pd8.jpg"
+          ]
+        },
+        {
+          "id": "mwkd0ggx4qfkz",
+          "t": 153.3,
+          "text": "Good off angle kill",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcybmx28zc9",
+            "child": "mwkd0adkckce8"
+          },
+          "photos": [
+            "mwkd0fuafi04v.jpg"
+          ]
+        },
+        {
+          "id": "mwkd2t6zaatn0",
+          "t": 207.9,
+          "text": "Look at the kill feed. Our team got killed with a sword and you were playing minecraft",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkcybmx28zc9",
+            "child": "mwkd29s87rrps"
+          },
+          "photos": [
+            "mwkd2sncs7snm.jpg"
+          ]
+        },
+        {
+          "id": "mwkd45zv42e46",
+          "t": 235.9,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd447hb1de3"
+          },
+          "photos": [
+            "mwkd45dpl0wf9.jpg"
+          ]
+        },
+        {
+          "id": "mwkd535uh0zlb",
+          "t": 251.1,
+          "text": "Cash Box",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd51mnkm9ac"
+          },
+          "photos": [
+            "mwkd52oppz5yz.jpg"
+          ]
+        },
+        {
+          "id": "mwkd71kv0h9sk",
+          "t": 277.3,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd6z4q2uxch"
+          },
+          "photos": [
+            "mwkd7114afedk.jpg"
+          ]
+        },
+        {
+          "id": "mwkdb5yk6f2q1",
+          "t": 422,
+          "text": "Jump in when teammate engages",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd6z4q2uxch",
+            "child": "mwkdatnhseduy"
+          },
+          "photos": [
+            "mwkdb5grkyica.jpg"
+          ]
+        },
+        {
+          "id": "mwkdiryl31qo5",
+          "t": 501.8,
+          "text": "Great chance to use melee to finish enemy",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd6z4q2uxch",
+            "child": "mwkdidvnvykb6"
+          },
+          "photos": [
+            "mwkdir8gruydc.jpg"
+          ]
+        },
+        {
+          "id": "mwkdmfzkrhoas",
+          "t": 523.9,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdmdkn2p5tf"
+          },
+          "photos": [
+            "mwkdmfkmfao9e.jpg"
+          ]
+        },
+        {
+          "id": "mwkdnj5i2p2wz",
+          "t": 525.3,
+          "text": "Low value play with RPG. What am I trying to achieve with this? What was the better play here?",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdmdkn2p5tf",
+            "child": "mwkdmskon2nac"
+          },
+          "photos": [
+            "mwkdnifui7zp5.jpg"
+          ]
+        },
+        {
+          "id": "mwkdpej615g0g",
+          "t": 539.3,
+          "text": "Practicing: Look away when you hear breach drill sound",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdmdkn2p5tf",
+            "child": "mwkdoaozt5fy6"
+          },
+          "photos": [
+            "mwkdpdxhe8tnq.jpg"
+          ]
+        },
+        {
+          "id": "mwkdr3gxl988c",
+          "t": 580.7,
+          "text": "Better RPG usage. Clear purpose",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdmdkn2p5tf",
+            "child": "mwkdqsuf7a61u"
+          },
+          "photos": [
+            "mwkdr2ve2340f.jpg"
+          ]
+        },
+        {
+          "id": "mwkdtahexou2o",
+          "t": 611.4,
+          "text": "Good job staying behind cover",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdmdkn2p5tf",
+            "child": "mwkdsnh6l55v4"
+          },
+          "photos": [
+            "mwkdt9v2ntk2i.jpg"
+          ]
+        },
+        {
+          "id": "mwkdul00nt62d",
+          "t": 680.5,
+          "text": "Round 2 Spawn",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkd447hb1de3"
+          },
+          "photos": [
+            "mwkdukfi35ug3.jpg"
+          ]
+        },
+        {
+          "id": "mwkdw4fd5e84j",
+          "t": 706.2,
+          "text": "Cash Box",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdw25hya9n6"
+          },
+          "photos": [
+            "mwkdw3zsktojv.jpg"
+          ]
+        },
+        {
+          "id": "mwkdwts24517w",
+          "t": 707.4,
+          "text": "Low value RPG. What should I be looking for here?",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdw25hya9n6",
+            "child": "mwkdwbnc5zap1"
+          },
+          "photos": [
+            "mwkdwta37stj8.jpg"
+          ]
+        },
+        {
+          "id": "mwkdydi5n3nb5",
+          "t": 733.6,
+          "text": "Enemy was near. Take statue inside for safer revive",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkdw25hya9n6",
+            "child": "mwkdxs1m6n2zf"
+          },
+          "photos": [
+            "mwkdyb3j3gg9e.jpg"
+          ]
+        },
+        {
+          "id": "mwke0p7hyrpn7",
+          "t": 780,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke0nmdiu12e"
+          }
+        },
+        {
+          "id": "mwke2cnhfxrtf",
+          "t": 807.5,
+          "text": "My team needs me. I am doing nothing here. Stay with them",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke0nmdiu12e",
+            "child": "mwke1qe1uspiw"
+          },
+          "photos": [
+            "mwke2cjcnj65c.jpg"
+          ]
+        },
+        {
+          "id": "mwke3blehvwye",
+          "t": 819.5,
+          "text": "Revive in a safer area",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke0nmdiu12e",
+            "child": "mwke30ox7ypy9"
+          },
+          "photos": [
+            "mwke3b2fsctqc.jpg"
+          ]
+        },
+        {
+          "id": "mwke57trxqnep",
+          "t": 839.7,
+          "text": "Is it possible to know which walls are single vs double layer? This wall was double layer",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke0nmdiu12e",
+            "child": "mwke4m3o3s5vh"
+          },
+          "photos": [
+            "mwke57lmqnyyj.jpg"
+          ]
+        },
+        {
+          "id": "mwke6mrwkzmb9",
+          "t": 870.6,
+          "text": "How can I be more consistent dropping the cashout station?",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke0nmdiu12e",
+            "child": "mwke6afrloy0d"
+          }
+        },
+        {
+          "id": "mwke9wyyw5hcn",
+          "t": 991.8,
+          "text": "Cashout Station",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke9v14q2jhe"
+          },
+          "photos": [
+            "mwke9wkcjduit.jpg"
+          ]
+        },
+        {
+          "id": "mwkeb2tfaqdo7",
+          "t": 1006.3,
+          "text": "How far should I've gone to make a safe revive?",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwke9v14q2jhe",
+            "child": "mwkeaoqxi3exe"
+          },
+          "photos": [
+            "mwkeb2el41s5b.jpg"
+          ]
+        },
+        {
+          "id": "mwked0fgag4th",
+          "t": 1040.8,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkecya5sbwkn"
+          },
+          "photos": [
+            "mwkeczxpc4pjw.jpg"
+          ]
+        },
+        {
+          "id": "mwkeh8e4pgxce",
+          "t": 1142.4,
+          "text": "Spawn with coin",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkeh6grdyn7s"
+          }
+        },
+        {
+          "id": "mwkei5cen3152",
+          "t": 1158.2,
+          "text": "Take statue and revive in safe place",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkeh6grdyn7s",
+            "child": "mwkehsjanht41"
+          }
+        },
+        {
+          "id": "mwkek2za7el2s",
+          "t": 1177.4,
+          "text": "No idea what I could have done",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkeh6grdyn7s",
+            "child": "mwkejsqhi4vpz"
+          },
+          "photos": [
+            "mwkekbd263xci.jpg"
+          ]
+        },
+        {
+          "id": "mwkemmxwae77p",
+          "t": 1220.2,
+          "text": "Spawn after team wipe",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkemkj11uaq1"
+          },
+          "photos": [
+            "mwkemmeaq4qm9.jpg"
+          ]
+        },
+        {
+          "id": "mwkepaniyaeny",
+          "t": 1264.9,
+          "text": "Practice creating goo cover closer to me",
+          "link": {
+            "map": "Fangwai City.webp",
+            "poi": "mwkemkj11uaq1",
+            "child": "mwkeox41kme2q"
+          },
+          "photos": [
+            "mwkepa00609fs.jpg"
+          ]
+        }
+      ],
+      "duration": 1298
     }
   }
 }
